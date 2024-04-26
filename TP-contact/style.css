@@ -1,0 +1,64 @@
+
+body{
+    
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgba(0, 0, 255, 0.981); */
+    background: url(img/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table{
+    color: white;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 30px ;
+    box-shadow: 10px 10px  rgba(0, 0, 0, 0.393);
+    background-color:rgba(205, 134, 63, 0.539);
+}
+.cont{
+    text-align: center;
+    margin: 10px;
+}
+.cont h2{
+    font-weight: 2rem;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+textarea{
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+}
+.btn{
+    text-align: center;
+}
+button{ 
+    margin: 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    /* background-color: rgba(0, 0, 255, 0.651); */
+    background-color:rgba(205, 134, 63, 0.856);
+    color: white;
+    transition:0.5s ease-out;
+}
+button:hover{
+    /* background-color: rgba(78, 112, 250, 0.738); */
+    background-color:rgba(122, 72, 23, 0.539);
+}
+
